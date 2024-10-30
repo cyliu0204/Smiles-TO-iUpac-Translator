@@ -20,7 +20,6 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     license="MIT",
     install_requires=[
-        tensorflow_os,
         "pystow",
         "unicodedata2",
         "jpype1",
