@@ -3,7 +3,9 @@
 import setuptools
 import platform
 
-
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+    
 setuptools.setup(
     name="STOUT-pypi",
     version="2.1.0",
